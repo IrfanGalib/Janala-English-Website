@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <header>
       <div class="navbar bg-base-100 shadow-sm bg-[#BADEFF26]">
         <div class="navbar-start">
@@ -100,6 +101,7 @@
         </div>
       </div>
     </header>
+    <!-- Hero Section -->
     <section
       class="flex flex-col-reverse md:flex-row gap-10 justify-between items-center py-5 w-11/12 mx-auto"
     >
@@ -126,5 +128,20 @@
         <img src="./assets/hero-student.png" alt="" />
       </div>
     </section>
+    <!--Let's Learn Vocabularies Section  -->
+    <section class="mt-12 mb-10">
+      <h1 class="text-3xl font-bold mb-10 text-center">
+        <span class="text-[#00BCFF]">Let's </span> Learn Vocabularies
+      </h1>
+      <div
+        class="flex gap-5 justify-center flex-wrap"
+        id="level-container"
+      ></div>
+    </section>
+    <section
+      id="word-container"
+      class="bg-gray-100 p-10 w-11/12 mx-auto mb-10 grid grid-cols-3 gap-5 rounded-xl"
+    ></section>
+    <script src="./script.js"></script>
   </body>
 </html>
